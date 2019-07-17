@@ -1,4 +1,5 @@
-package com.jeftech.kbfc;
+package com.jeftech.kbfc.Activities;
+
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -6,6 +7,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.jeftech.kbfc.R;
 import com.squareup.picasso.Picasso;
 
 public class HostelViewActivity extends AppCompatActivity {

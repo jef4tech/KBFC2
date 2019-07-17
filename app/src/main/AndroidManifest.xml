@@ -12,7 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".splash"
+            android:name=".Activities.splash"
             android:theme="@style/Fullscreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -21,10 +21,10 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".home"
+            android:name=".Activities.home"
             android:label="@string/title_activity_home" />
-        <activity android:name=".RecyclerActivity" />
-        <activity android:name=".HostelViewActivity" />
+        <activity android:name=".Adapters.RecyclerActivity" />
+        <activity android:name=".Activities.HostelViewActivity" />
     </application>
 
 </manifest>

@@ -1,4 +1,4 @@
-package com.jeftech.kbfc;
+package com.jeftech.kbfc.Adapters;
 
 import android.content.Context;
 import android.content.Intent;
@@ -10,6 +10,10 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import com.jeftech.kbfc.Activities.HostelViewActivity;
+import com.jeftech.kbfc.Activities.home;
+import com.jeftech.kbfc.Models.DataModel;
+import com.jeftech.kbfc.R;
 import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;

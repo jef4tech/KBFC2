@@ -1,8 +1,6 @@
-package com.jeftech.kbfc;
+package com.jeftech.kbfc.Fragments;
 
-import android.content.Context;
 import android.content.Intent;
-import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -10,6 +8,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.Toast;
+
+import com.jeftech.kbfc.R;
+import com.jeftech.kbfc.Adapters.RecyclerActivity;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -43,7 +44,7 @@ Unbinder unbinder;
         players.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(getActivity().getApplication(),RecyclerActivity.class);
+                Intent intent=new Intent(getActivity().getApplication(), RecyclerActivity.class);
                 startActivity(intent);
                 Toast.makeText(getContext(), "clicked button", Toast.LENGTH_SHORT).show();
             }

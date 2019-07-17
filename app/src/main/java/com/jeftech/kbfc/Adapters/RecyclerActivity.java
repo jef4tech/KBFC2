@@ -1,4 +1,4 @@
-package com.jeftech.kbfc;
+package com.jeftech.kbfc.Adapters;
 
 import android.app.ProgressDialog;
 import android.content.Context;
@@ -15,6 +15,9 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
+import com.jeftech.kbfc.Adapters.RvAdapter;
+import com.jeftech.kbfc.Models.DataModel;
+import com.jeftech.kbfc.R;
 
 
 import org.json.JSONArray;

@@ -1,4 +1,4 @@
-package com.jeftech.kbfc;
+package com.jeftech.kbfc.Models;
 
 public class DataModel {
 

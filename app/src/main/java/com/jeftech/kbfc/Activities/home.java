@@ -1,20 +1,26 @@
-package com.jeftech.kbfc;
+package com.jeftech.kbfc.Activities;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
 import android.support.v4.app.Fragment;
 import android.support.v7.app.AppCompatActivity;
-import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.ImageView;
+import android.widget.TextView;
+
+import com.jeftech.kbfc.R;
+import com.jeftech.kbfc.Fragments.frag1;
+import com.jeftech.kbfc.Fragments.frag2;
+import com.jeftech.kbfc.Fragments.frag3;
+import com.squareup.picasso.Picasso;
 
 public class home extends AppCompatActivity {
 
    /* @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.tool, menu);
-        return true;
     }*/
     private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener
             = new BottomNavigationView.OnNavigationItemSelectedListener() {
@@ -58,4 +64,5 @@ public class home extends AppCompatActivity {
         }
         return false;
     }
+
 }
