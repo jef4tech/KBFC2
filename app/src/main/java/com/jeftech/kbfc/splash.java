@@ -1,4 +1,4 @@
-package com.jeftech.kbfc.Activities;
+package com.jeftech.kbfc;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -8,7 +8,7 @@ import android.view.WindowManager;
 import android.widget.ImageView;
 
 import com.bumptech.glide.Glide;
-import com.jeftech.kbfc.R;
+import com.jeftech.kbfc.Activities.home;
 
 public class splash extends AppCompatActivity {
 
